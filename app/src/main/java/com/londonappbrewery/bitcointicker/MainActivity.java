@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         // Apply the adapter to the spinner
         spinner.setAdapter(adapter);
 
+
         // TODO: Set an OnItemSelected listener on the spinner
         spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
             @Override
